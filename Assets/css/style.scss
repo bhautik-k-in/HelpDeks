@@ -158,13 +158,7 @@ body {
 
 @media only screen and (max-width: 1024px) {
   html {
-    font-size: 85%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  html {
-    font-size: 63%;
+    font-size: 90%;
   }
 
   .headerDiv {
@@ -172,13 +166,91 @@ body {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   html {
-    font-size: 52%;
-    text-align: center;
+    font-size: 90%;
   }
 
+  .imageContainer {
+    max-width: 70%;
+    .row {
+      div {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .middleText {
+    .middleheadText {
+      div {
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+
+    .middleParaText {
+      div {
+        p {
+          font-size: 1.5rem;
+        }
+      }
+
+      div {
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+     .secondText {
+       .secontTextRow1 {
+          div {
+            h1 {
+              font-size: 3rem;
+            }
+          }
+       }
+     }
+
+     .paraText {
+       font-size: 1.5rem;
+     }
+
+     .btnSec {
+       margin: 0.5rem 0;
+    
+     }
+
   .headerDiv {
-    max-width: 92% !important;
+    max-width: 95% !important;
   }
 }
+
+@media only screen and (max-width: 578px) {
+  .middleText {
+    margin-top: -3rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 80%;
+  }
+
+
+  .headText {
+    font-size: 3rem !important;
+  }
+
+  // html {
+  //   font-size: 52%;
+  //   text-align: center;
+  // }
+
+  // .headerDiv {
+  //   max-width: 92% !important;
+  // }
+}
+
