@@ -5,11 +5,11 @@
 
 html {
   font-size: 100%;
-  overflow-x: hidden;
 }
 
 body {
   background-color: #f7f1e3;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -171,7 +171,6 @@ body {
 @media only screen and (max-width: 768px) {
   html {
     font-size: 63%;
-    text-align: center;
   }
   .headerDiv {
     max-width: 95% !important;
