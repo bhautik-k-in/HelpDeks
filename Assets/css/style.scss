@@ -1,8 +1,3 @@
-// @font-face {
-//   font-family: "myFirstFont-Medium";
-//   src: url(Assets/fonts/Montserrat/Montserrat-Medium.ttf);
-// }
-
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +10,6 @@ html {
 body {
   background-color: #f7f1e3;
   overflow-x: hidden;
-
 }
 
 .navbar {
@@ -66,8 +60,6 @@ body {
   .headPar {
     font-size: 1.4rem;
   }
-
-
 }
 
 .button92 {
@@ -134,45 +126,19 @@ body {
   font-size: 1.1rem;
   padding: 15px 0;
 
-  // .card-body {
-  //   button {
-  //     font-size: 1.2rem;
-  //     color: #283435;
-     
-  //   }
-  // }
-    &:hover {
-      background-color: #283435;
-      color: #00d2d3;
-    }
-  
-
-  // &:hover {
-  //   background-color: #283435;
-  //   .card-body {
-  //     button {
-  //       color: #00d2d3;
-  //      }
-  //   }
-  // }
+  &:hover {
+    background-color: #283435;
+    color: #00d2d3;
+  }
 }
 
 .collapseCard {
   background-color: #283435;
-  border:none;
+  border: none;
   color: white;
   font-size: 1.2rem;
   max-width: 100%;
 }
-
-// #btnWitoutBorder:active {
-//   outline: 0 !important; 
-//   border: none !important;
-  
-//   &:focus {
-//       outline: 0 !important;
-//     }
-// }
 
 .footer-inside {
   a {
@@ -188,14 +154,12 @@ body {
   html {
     font-size: 100%;
   }
-
 }
 
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 85%;
   }
- 
 }
 
 @media only screen and (max-width: 768px) {
@@ -206,9 +170,6 @@ body {
   .headerDiv {
     max-width: 95% !important;
   }
-
-
-
 }
 
 @media only screen and (max-width: 425px) {
@@ -220,7 +181,4 @@ body {
   .headerDiv {
     max-width: 92% !important;
   }
-
-
-
 }
