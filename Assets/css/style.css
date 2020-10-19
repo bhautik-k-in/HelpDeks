@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f7f1e3;
+}
+
+.navbar {
+  background-color: #283435;
+  border-bottom: #283435 5px solid;
+}
+
+.navbar .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar .nav-item a {
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar .nav-item a:hover {
+  color: #00d2d3;
+}
+
+#home-section {
+  background: url(../images/Photos/Images/inspect/Intervention/Designs/Home-Design-1/Hero/HeroImageactual.png) no-repeat center center scroll;
+  background-size: cover;
+  min-height: 75vh;
+}
+
+#home-section .headerRow {
+  position: relative;
+}
+
+#home-section .headerEndRow {
+  position: absolute;
+  top: 40.7rem;
+  height: 100%;
+}
+
+#home-section .headText {
+  font-size: 3.6rem;
+  padding-top: 13rem;
+}
+
+#home-section .headPar {
+  font-size: 1.4rem;
+}
+
+.button92 {
+  background-color: #74b9ff;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 17.789rem;
+}
+
+.imageContainer {
+  padding: 6.5rem 0;
+}
+
+.phoneLable {
+  padding-top: -4rem;
+}
+
+.phoneHead {
+  padding-top: 2rem;
+  text-decoration: underline;
+}
+
+.rounded {
+  border-radius: 0.3rem;
+  height: 4rem;
+}
+
+.LableHead {
+  font-size: 1.8rem;
+}
+
+.paraText {
+  font-size: 1.2789rem;
+}
+
+.carousel-inner {
+  padding: 0 7rem;
+}
+
+.testiName {
+  color: #00d2d3;
+}
+
+.testData h2 {
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.testData p {
+  font-size: 1.1rem;
+}
+
+.card {
+  background-color: transparent;
+  border: 3px solid #00d2d3;
+  border-radius: 0;
+  width: 22.7rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.card .card-body button {
+  font-size: 1.2rem;
+  color: #283435;
+}
+
+.card .collapseCard {
+  background-color: #283435;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  max-width: 100%;
+}
+
+.card:hover {
+  background-color: #283435;
+}
+
+.card:hover .card-body button {
+  color: #00d2d3;
+}
+
+.footer-inside a {
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer-inside a:hover {
+  color: #00d2d3;
+}
+
+@media only screen and (max-width: 1440px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 63%;
+    text-align: center;
+  }
+  .headerDiv {
+    max-width: 95% !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 52%;
+    text-align: center;
+  }
+  .headerDiv {
+    max-width: 92% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
