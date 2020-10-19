@@ -169,6 +169,9 @@ body {
   html {
     font-size: 90%;
   }
+  .carousel-indicators {
+    margin-top: 8rem;
+  }
   .imageContainer {
     max-width: 70%;
   }
@@ -202,6 +205,9 @@ body {
   .middleText {
     margin-top: -3rem;
   }
+  .carousel-indicators {
+    margin-top: 23rem;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -210,6 +216,9 @@ body {
   }
   .headText {
     font-size: 3rem !important;
+  }
+  .carousel-indicators {
+    margin-top: 23rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
